@@ -1,18 +1,16 @@
-/*
- * HomePage
- *
- * This is the first thing users see of our App, at the '/' route
- *
- */
-
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
 import messages from './messages';
+import MainCard from '../../components/MainCard';
+import CardHeader from '../../components/CardHeader';
 
 export default function HomePage() {
   return (
-    <h1>
-      <FormattedMessage {...messages.header} />
-    </h1>
+    <MainCard>
+      <CardHeader />
+      <h1>
+        <FormattedMessage {...messages.header} />
+      </h1>
+    </MainCard>
   );
 }
