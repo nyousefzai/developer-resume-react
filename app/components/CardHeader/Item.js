@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 const items = styled.div`
+  font-size: 16px;
   font-family: inherit;
   letter-spacing: -0.5px;
   display: flex;

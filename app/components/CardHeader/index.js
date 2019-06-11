@@ -5,6 +5,9 @@ import {
   faUserAstronaut,
   faFileAlt,
   faLayerGroup,
+  faImages,
+  faUsers,
+  faComments,
 } from '@fortawesome/free-solid-svg-icons';
 import Container from './Container';
 import Items from './Item';
@@ -16,25 +19,37 @@ const CardHeader = () => (
     <Items>
       <FontAwesomeIcon icon={faUserAstronaut} />
       <Section>
-        <FormattedMessage {...messages.headerItems} />
+        <FormattedMessage {...messages.profile} />
       </Section>
     </Items>
     <Items>
       <FontAwesomeIcon icon={faFileAlt} />
       <Section>
-        <FormattedMessage {...messages.headerItems} />
+        <FormattedMessage {...messages.resume} />
       </Section>
     </Items>
     <Items>
       <FontAwesomeIcon icon={faLayerGroup} />
       <Section>
-        <FormattedMessage {...messages.headerItems} />
+        <FormattedMessage {...messages.services} />
       </Section>
     </Items>
     <Items>
-      <FontAwesomeIcon icon={faUserAstronaut} />
+      <FontAwesomeIcon icon={faImages} />
       <Section>
-        <FormattedMessage {...messages.headerItems} />
+        <FormattedMessage {...messages.portfolio} />
+      </Section>
+    </Items>
+    <Items>
+      <FontAwesomeIcon icon={faUsers} />
+      <Section>
+        <FormattedMessage {...messages.testimonial} />
+      </Section>
+    </Items>
+    <Items>
+      <FontAwesomeIcon icon={faComments} />
+      <Section>
+        <FormattedMessage {...messages.contact} />
       </Section>
     </Items>
   </Container>
