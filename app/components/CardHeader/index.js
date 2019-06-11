@@ -18,27 +18,26 @@ import messages from './messages';
 import logo from './logo.png';
 
 class CardHeader extends Component {
-  menu = () => {
-    return (
-      <Menu>
-        <Menu.Item key="0">
-          <a href="/resume">Resume</a>
-        </Menu.Item>
-        <Menu.Item key="1">
-          <a href="/services">Services</a>
-        </Menu.Item>
-        <Menu.Item key="2">
-          <a href="/portfolio">Portfolio</a>
-        </Menu.Item>
-        <Menu.Item key="3">
-          <a href="/testimonial">Testimonial</a>
-        </Menu.Item>
-        <Menu.Item key="4">
-          <a href="/contact">Contact</a>
-        </Menu.Item>
-      </Menu>
-    );
-  };
+  menu = () => (
+    <Menu>
+      <Menu.Item key="0">
+        <Link to="/resume">Resume</Link>
+      </Menu.Item>
+      <Menu.Item key="1">
+        <Link to="/services">Services</Link>
+      </Menu.Item>
+      <Menu.Item key="2">
+        <Link to="/portfolio">Portfolio</Link>
+      </Menu.Item>
+      <Menu.Item key="3">
+        <Link to="/testimonial">Testimonial</Link>
+      </Menu.Item>
+      <Menu.Item key="4">
+        <Link to="/contact">Contact</Link>
+      </Menu.Item>
+    </Menu>
+  );
+
   render() {
     return (
       <Container>
