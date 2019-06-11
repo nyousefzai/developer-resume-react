@@ -13,6 +13,7 @@ const items = styled.div`
   width: 10%;
   :hover {
     background-color: #ffdc00;
+    cursor: pointer;
   }
 `;
 
