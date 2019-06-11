@@ -14,9 +14,17 @@ import Container from './Container';
 import Items from './Item';
 import Section from './Section';
 import messages from './messages';
+import logo from './logo.png';
 
 const CardHeader = () => (
   <Container>
+    <Link to="/">
+      <img
+        alt="Navid Ful Stack Developer"
+        style={{ marginTop: 30, marginRight: '10em' }}
+        src={logo}
+      />
+    </Link>
     <Link style={{ width: '10%' }} to="/">
       <Items>
         <FontAwesomeIcon icon={faUserAstronaut} />
