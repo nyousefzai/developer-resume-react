@@ -14,6 +14,10 @@ const items = styled.div`
     background-color: #ffdc00;
     cursor: pointer;
   }
+
+  @media only screen and (max-width: 670px) {
+    display: none;
+  }
 `;
 
 export default items;

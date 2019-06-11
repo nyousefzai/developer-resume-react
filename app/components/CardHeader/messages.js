@@ -3,7 +3,7 @@ export const scope = 'app.containers.HomePage';
 export default defineMessages({
   profile: {
     id: `${scope}.header`,
-    defaultMessage: 'Profile',
+    defaultMessage: 'Me',
   },
   resume: {
     id: ` ${scope}.header`,

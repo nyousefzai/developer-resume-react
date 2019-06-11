@@ -30,7 +30,7 @@ const GlobalStyle = createGlobalStyle`
   a, a:link,a:visited{
     text-decoration:none;
     color:#000;
-    cursor:alias;
+    cursor:pointer;
   }
 `;
 

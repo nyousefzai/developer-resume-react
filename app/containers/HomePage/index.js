@@ -1,12 +1,13 @@
 import React from 'react';
 import ImgCard from '../../components/ImgCard';
 import ProfileDetails from '../../components/ProfileDetails';
+import Container from './Container';
 
 export default function HomePage() {
   return (
-    <div style={{ display: 'flex' }}>
+    <Container>
       <ImgCard />
       <ProfileDetails />
-    </div>
+    </Container>
   );
 }
