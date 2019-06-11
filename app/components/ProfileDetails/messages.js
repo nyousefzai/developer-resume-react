@@ -7,7 +7,7 @@ export default defineMessages({
   },
   underHeadline: {
     id: ` ${scope}.HomePage`,
-    defaultMessage: 'full stack software engineer',
+    defaultMessage: 'full stack Developer || software enginner ',
   },
   address: {
     id: ` ${scope}.HomePage`,

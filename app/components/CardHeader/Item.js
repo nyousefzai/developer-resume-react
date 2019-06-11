@@ -10,7 +10,6 @@ const items = styled.div`
   background-color: #fff;
   align-items: center;
   justify-content: center;
-  width: 10%;
   :hover {
     background-color: #ffdc00;
     cursor: pointer;

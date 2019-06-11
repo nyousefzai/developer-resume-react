@@ -23,8 +23,14 @@ const GlobalStyle = createGlobalStyle`
 
   p,
   label {
-    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Roboto',Georgia, Times, 'Times New Roman', serif;
     line-height: 1.5em;
+  }
+
+  a, a:link,a:visited{
+    text-decoration:none;
+    color:#000;
+    cursor:alias;
   }
 `;
 

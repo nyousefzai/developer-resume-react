@@ -9,6 +9,7 @@ import {
   faUsers,
   faComments,
 } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 import Container from './Container';
 import Items from './Item';
 import Section from './Section';
@@ -16,42 +17,54 @@ import messages from './messages';
 
 const CardHeader = () => (
   <Container>
-    <Items>
-      <FontAwesomeIcon icon={faUserAstronaut} />
-      <Section>
-        <FormattedMessage {...messages.profile} />
-      </Section>
-    </Items>
-    <Items>
-      <FontAwesomeIcon icon={faFileAlt} />
-      <Section>
-        <FormattedMessage {...messages.resume} />
-      </Section>
-    </Items>
-    <Items>
-      <FontAwesomeIcon icon={faLayerGroup} />
-      <Section>
-        <FormattedMessage {...messages.services} />
-      </Section>
-    </Items>
-    <Items>
-      <FontAwesomeIcon icon={faImages} />
-      <Section>
-        <FormattedMessage {...messages.portfolio} />
-      </Section>
-    </Items>
-    <Items>
-      <FontAwesomeIcon icon={faUsers} />
-      <Section>
-        <FormattedMessage {...messages.testimonial} />
-      </Section>
-    </Items>
-    <Items>
-      <FontAwesomeIcon icon={faComments} />
-      <Section>
-        <FormattedMessage {...messages.contact} />
-      </Section>
-    </Items>
+    <Link style={{ width: '10%' }} to="/">
+      <Items>
+        <FontAwesomeIcon icon={faUserAstronaut} />
+        <Section>
+          <FormattedMessage {...messages.profile} />
+        </Section>
+      </Items>
+    </Link>
+    <Link style={{ width: '10%' }} to="/resume">
+      <Items>
+        <FontAwesomeIcon icon={faFileAlt} />
+        <Section>
+          <FormattedMessage {...messages.resume} />
+        </Section>
+      </Items>
+    </Link>
+    <Link style={{ width: '10%' }} to="/services">
+      <Items>
+        <FontAwesomeIcon icon={faLayerGroup} />
+        <Section>
+          <FormattedMessage {...messages.services} />
+        </Section>
+      </Items>
+    </Link>
+    <Link style={{ width: '10%' }} to="/portfolio">
+      <Items>
+        <FontAwesomeIcon icon={faImages} />
+        <Section>
+          <FormattedMessage {...messages.portfolio} />
+        </Section>
+      </Items>
+    </Link>
+    <Link style={{ width: '10%' }} to="/testimonial">
+      <Items>
+        <FontAwesomeIcon icon={faUsers} />
+        <Section>
+          <FormattedMessage {...messages.testimonial} />
+        </Section>
+      </Items>
+    </Link>
+    <Link style={{ width: '10%' }} to="/contact">
+      <Items>
+        <FontAwesomeIcon icon={faComments} />
+        <Section>
+          <FormattedMessage {...messages.contact} />
+        </Section>
+      </Items>
+    </Link>
   </Container>
 );
 

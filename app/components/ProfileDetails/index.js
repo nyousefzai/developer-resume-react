@@ -14,7 +14,7 @@ import InnerWapper from './InnerWapper';
 
 const ProfileDetails = () => (
   <Container>
-    <Headline outline="0 0 5px 0" font="open Sans" spacing="0">
+    <Headline outline="0 0 5px 0" spacing="0">
       <FormattedMessage {...messages.headline} />
     </Headline>
     <Headline outline="0 0 10px 0" size="12px">
@@ -42,7 +42,7 @@ const ProfileDetails = () => (
       <FormattedMessage {...messages.line} />
     </Headline>
     <IconsWrapper>
-      <Headline outline="0 0 10px 0" size="14px">
+      <Headline spacing="0" outline="0 0 10px 0" size="14px">
         <FormattedMessage {...messages.objective} />
       </Headline>
     </IconsWrapper>
