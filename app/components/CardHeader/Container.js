@@ -5,7 +5,8 @@ const Container = styled.div`
   height: 80px;
   background-color: #fff;
   justify-content: flex-end;
-
+  box-shadow: 0px 15px 10px -15px #111;
+  margin-bottom: 20px;
   > :first-child {
     margin: 25px auto;
     height: 1.5em;
@@ -17,6 +18,7 @@ const Container = styled.div`
     height: 2em;
     width: 2em;
   }
+
   @media only screen and (max-width: 670px) {
     justify-content: none;
     margin-bottom: 20px;

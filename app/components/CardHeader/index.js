@@ -9,6 +9,7 @@ import {
   faImages,
   faUsers,
   faComments,
+  faPuzzlePiece,
 } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 import Container from './Container';
@@ -35,6 +36,9 @@ class CardHeader extends Component {
       <Menu.Item key="4">
         <Link to="/contact">Contact</Link>
       </Menu.Item>
+      <Menu.Item key="5">
+        <Link to="/game">Contact</Link>
+      </Menu.Item>
     </Menu>
   );
 
@@ -49,7 +53,7 @@ class CardHeader extends Component {
         <Link to="/">
           <img
             alt="Navid Ful Stack Developer"
-            style={{ marginTop: 30, marginRight: '10em' }}
+            style={{ marginTop: 30, marginRight: '3em' }}
             src={logo}
           />
         </Link>
@@ -98,6 +102,14 @@ class CardHeader extends Component {
             <FontAwesomeIcon icon={faComments} />
             <Section>
               <FormattedMessage {...messages.contact} />
+            </Section>
+          </Items>
+        </Link>
+        <Link style={{ width: '10%' }} to="/game">
+          <Items>
+            <FontAwesomeIcon icon={faPuzzlePiece} />
+            <Section>
+              <FormattedMessage {...messages.game} />
             </Section>
           </Items>
         </Link>

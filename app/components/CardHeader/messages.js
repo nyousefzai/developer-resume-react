@@ -25,4 +25,8 @@ export default defineMessages({
     id: ` ${scope}.header`,
     defaultMessage: 'Contact',
   },
+  game: {
+    id: ` ${scope}.header`,
+    defaultMessage: 'game',
+  },
 });

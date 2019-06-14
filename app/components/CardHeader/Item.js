@@ -11,7 +11,7 @@ const items = styled.div`
   align-items: center;
   justify-content: center;
   :hover {
-    background-color: #ffdc00;
+    background-color: #39cccc;
     cursor: pointer;
   }
 
