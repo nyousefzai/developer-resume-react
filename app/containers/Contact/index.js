@@ -121,7 +121,7 @@ class Contact extends Component {
           <ThankYou>
             <div>
               <Alert
-                message="Message Recived"
+                message="Message Received"
                 description={this.state.message.message}
                 type="success"
                 showIcon

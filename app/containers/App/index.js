@@ -25,7 +25,6 @@ export default function App() {
           <Route exact path="/game" component={Game} />
           <Route exact path="/portfolio" component={Portfolio} />
         </MainCard>
-        <Route path="" component={NotFoundPage} />
       </Switch>
       <GlobalStyle />
     </AppWrapper>
