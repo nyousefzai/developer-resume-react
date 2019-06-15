@@ -11,6 +11,7 @@ import CardHeader from '../../components/CardHeader';
 import Game from '../../components/Game';
 import Resume from '../Resume';
 import Contact from '../Contact';
+import Portfolio from '../../components/Portfolio';
 
 export default function App() {
   return (
@@ -22,6 +23,7 @@ export default function App() {
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/resume" component={Resume} />
           <Route exact path="/game" component={Game} />
+          <Route exact path="/portfolio" component={Portfolio} />
         </MainCard>
         <Route path="" component={NotFoundPage} />
       </Switch>

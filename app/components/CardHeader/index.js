@@ -22,22 +22,19 @@ class CardHeader extends Component {
   menu = () => (
     <Menu>
       <Menu.Item key="0">
-        <Link to="/resume">Resume</Link>
+        <Link to="/">Home</Link>
       </Menu.Item>
       <Menu.Item key="1">
-        <Link to="/services">Services</Link>
+        <Link to="/resume">Resume</Link>
       </Menu.Item>
       <Menu.Item key="2">
         <Link to="/portfolio">Portfolio</Link>
-      </Menu.Item>
-      <Menu.Item key="3">
-        <Link to="/testimonial">Testimonial</Link>
       </Menu.Item>
       <Menu.Item key="4">
         <Link to="/contact">Contact</Link>
       </Menu.Item>
       <Menu.Item key="5">
-        <Link to="/game">Contact</Link>
+        <Link to="/game">Game</Link>
       </Menu.Item>
     </Menu>
   );
@@ -53,7 +50,7 @@ class CardHeader extends Component {
         <Link to="/">
           <img
             alt="Navid Ful Stack Developer"
-            style={{ marginTop: 30, marginRight: '3em' }}
+            style={{ marginTop: 30, marginRight: '12em', height: 20 }}
             src={logo}
           />
         </Link>
@@ -73,27 +70,11 @@ class CardHeader extends Component {
             </Section>
           </Items>
         </Link>
-        <Link style={{ width: '10%' }} to="/services">
-          <Items>
-            <FontAwesomeIcon icon={faLayerGroup} />
-            <Section>
-              <FormattedMessage {...messages.services} />
-            </Section>
-          </Items>
-        </Link>
         <Link style={{ width: '10%' }} to="/portfolio">
           <Items>
             <FontAwesomeIcon icon={faImages} />
             <Section>
               <FormattedMessage {...messages.portfolio} />
-            </Section>
-          </Items>
-        </Link>
-        <Link style={{ width: '10%' }} to="/testimonial">
-          <Items>
-            <FontAwesomeIcon icon={faUsers} />
-            <Section>
-              <FormattedMessage {...messages.testimonial} />
             </Section>
           </Items>
         </Link>

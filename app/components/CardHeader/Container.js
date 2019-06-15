@@ -9,6 +9,7 @@ const Container = styled.div`
   margin-bottom: 20px;
   > :first-child {
     margin: 25px auto;
+
     height: 1.5em;
     width: 1.5em;
     cursor: pointer;
