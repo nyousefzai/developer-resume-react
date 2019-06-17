@@ -22,9 +22,6 @@ const Section = styled.div`
     width: 100%;
     margin: 0;
   }
-  /* div[tabindex] {
-    display: block;
-  } */
 
   span {
     position: absolute;
@@ -36,6 +33,10 @@ const Section = styled.div`
     span h2 {
       color: #fff;
       font-size: 14px;
+    }
+    .slick-prev:before,
+    .slick-next:before {
+      display: none;
     }
   }
 `;
