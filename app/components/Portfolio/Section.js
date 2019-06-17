@@ -29,6 +29,7 @@ const Section = styled.div`
     margin-left: 20px;
     font-family: monospace;
   }
+
   @media only screen and (max-width: 670px) {
     span h2 {
       color: #fff;
