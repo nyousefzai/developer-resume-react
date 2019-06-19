@@ -1,11 +1,13 @@
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import {
   faMapMarkerAlt,
   faPhoneVolume,
   faEnvelope,
 } from '@fortawesome/free-solid-svg-icons';
+
 import Container from './container';
 import Headline from './Headline';
 import messages from './messages';
@@ -37,6 +39,18 @@ const ProfileDetails = () => (
         <FontAwesomeIcon icon={faEnvelope} />
       </InnerWapper>
       <FormattedMessage {...messages.email} />
+    </IconsWrapper>
+    <IconsWrapper>
+      <InnerWapper>
+        <FontAwesomeIcon icon={faLinkedin} />
+      </InnerWapper>
+      <FormattedMessage {...messages.linkedin} />
+    </IconsWrapper>
+    <IconsWrapper>
+      <InnerWapper>
+        <FontAwesomeIcon icon={faGithub} />
+      </InnerWapper>
+      <FormattedMessage {...messages.github} />
     </IconsWrapper>
     <Headline outline="15px  0 10px 0" font="inhert">
       <FormattedMessage {...messages.line} />

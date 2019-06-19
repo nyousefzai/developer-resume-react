@@ -30,4 +30,12 @@ export default defineMessages({
     defaultMessage:
       'Building state-of-the-art, easy to use, user-friendly websites and applications is truly a passion of mine. I actively seek out new technologies and stay up-to-date on industry trends and advancements.',
   },
+  linkedin: {
+    id: ` ${scope}.HomePage`,
+    defaultMessage: 'My Linkedin ',
+  },
+  github: {
+    id: ` ${scope}.HomePage`,
+    defaultMessage: 'My Github ',
+  },
 });

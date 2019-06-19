@@ -4,9 +4,10 @@ const AppWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  width: 100%;
+  min-width: 100%;
+  min-height: 100vh;
   font-family: 'Roboto', sans-serif;
+  background-color: #fff;
 `;
 
 export default AppWrapper;

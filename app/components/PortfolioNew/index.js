@@ -8,18 +8,22 @@ import caterhub3 from './imgs/caterhub3.png';
 import caterhub4 from './imgs/caterhub4.png';
 import caterhub5 from './imgs/caterhub5.png';
 import ins from './imgs/insuranceguru.png';
+import Container from './Container';
+
 function PortfolioNew() {
   return (
-    <Carousel>
-      <img src={caterhub1} />
-      <img src={caterhub2} />
-      <img src={caterhub3} />
-      <img src={caterhub4} />
-      <img src={caterhub5} />
-      <img src={Rcfe} />
-      <img src={ProfolioOne} />
-      <img src={ins} />
-    </Carousel>
+    <Container>
+      <Carousel>
+        <img src={caterhub1} />
+        <img src={caterhub2} />
+        <img src={caterhub3} />
+        <img src={caterhub4} />
+        <img src={caterhub5} />
+        <img src={Rcfe} />
+        <img src={ProfolioOne} />
+        <img src={ins} />
+      </Carousel>
+    </Container>
   );
 }
 
