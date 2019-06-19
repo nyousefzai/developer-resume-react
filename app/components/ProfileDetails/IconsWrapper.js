@@ -5,9 +5,11 @@ const IconWrapper = styled.div`
   display: flex;
   font-size: 14px;
 
-  > span {
+  > span,
+  a {
     margin-left: 15px;
     font-family: inherit;
+    color: inherit;
   }
 `;
 

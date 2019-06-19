@@ -1,1 +1,3 @@
-My resume
+Live : https://www.navidy.com
+
+Licence : MIT

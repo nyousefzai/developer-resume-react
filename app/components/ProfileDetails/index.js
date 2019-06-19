@@ -44,13 +44,20 @@ const ProfileDetails = () => (
       <InnerWapper>
         <FontAwesomeIcon icon={faLinkedin} />
       </InnerWapper>
-      <FormattedMessage {...messages.linkedin} />
+      <a
+        target="_blank"
+        href="https://www.linkedin.com/in/navid-yousefzai-b78511126/"
+      >
+        <FormattedMessage {...messages.linkedin} />
+      </a>
     </IconsWrapper>
     <IconsWrapper>
       <InnerWapper>
         <FontAwesomeIcon icon={faGithub} />
       </InnerWapper>
-      <FormattedMessage {...messages.github} />
+      <a target="_blank" href="https://github.com/nyousefzai">
+        <FormattedMessage {...messages.github} />
+      </a>
     </IconsWrapper>
     <Headline outline="15px  0 10px 0" font="inhert">
       <FormattedMessage {...messages.line} />
